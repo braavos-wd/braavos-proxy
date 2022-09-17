@@ -138,7 +138,7 @@ async function donatedEffect(){
 	$('#donateSection').css('animation-iteration-count', '3');
 	//make sounds
 	MyLibrary.missSound = new Audio();
-	MyLibrary.missSound.src = "audio/medievalvictory.m4a";
+	MyLibrary.missSound.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/medievalvictory.m4a";
 	MyLibrary.missSound.play();
 	MyLibrary.missSound.volume = 0.5;
 	//reset all
@@ -222,7 +222,7 @@ async function soundEffect_embark(action){
 	if(action == 1){
 		//Add sound effect
 		MyLibrary.embarksound = new Audio();
-		MyLibrary.embarksound.src = "audio/medievalbelldark.m4a";
+		MyLibrary.embarksound.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/medievalbelldark.m4a";
 		MyLibrary.embarksound.play();
 		// Setting volume level
 		MyLibrary.embarksound.volume = 0.1;  // set volume to 50%
@@ -236,7 +236,7 @@ async function soundEffect_load(){
 	if(action == 1){
 		//Add sound effect
 		MyLibrary.loadsound = new Audio();
-		MyLibrary.loadsound.src = "https://cdn.jsdelivr.net/gh/harvey7613/rrdao@main/winchesterload.m4a";
+		MyLibrary.loadsound.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/winchesterload.m4a";
 		MyLibrary.loadsound.play();
 		// Setting volume level
 		MyLibrary.loadsound.volume = 0.1;  // set volume to 50%

@@ -81,14 +81,14 @@ async function playEffects(){
 	//play animations & sound
 	if(MyLibrary.hypeSound == null){//if deleted
 		MyLibrary.hypeSound = new Audio();
-		MyLibrary.hypeSound.src = "audio/darkfantasyabyss.m4a";
+		MyLibrary.hypeSound.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/darkfantasyabyss.m4a";
 		MyLibrary.hypeSound.play();
 		MyLibrary.hypeSound.volume = 0.4;
 	}
 	move_cylinder = setTimeout( function() {
 		if(MyLibrary.hypeVoice == null){//if deleted
 			MyLibrary.hypeVoice = new Audio();
-			MyLibrary.hypeVoice.src = "audio/valyrianwhatdowesayto.mp3";
+			MyLibrary.hypeVoice.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/valyrianwhatdowesayto.mp3";
 			MyLibrary.hypeVoice.play();
 			MyLibrary.hypeVoice.volume = 0.4;
 		}
@@ -132,7 +132,7 @@ async function playEffects(){
 		$("#cylinder_outer").addClass('loader_wait'); 
 		//make sounds
 		MyLibrary.loadSound = new Audio();
-		MyLibrary.loadSound.src = "https://cdn.jsdelivr.net/gh/harvey7613/rrdao@main/winchesterload.m4a";
+		MyLibrary.loadSound.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/winchesterload.m4a";
 		MyLibrary.loadSound.play();
 		MyLibrary.loadSound.volume = 0.5;
 		//start shiver
@@ -256,7 +256,7 @@ async function wonEffect(){
 	document.body.appendChild(el);	
 	// 3. Add sound effect
 	var shotSound = new Audio();
-	shotSound.src = "https://cdn.jsdelivr.net/gh/harvey7613/rrdao@main/audio_revolvershot.m4a";
+	shotSound.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/audio_revolvershot.m4a";
 	shotSound.volume = 0.4; 
 	shotSound.play().then(() => {
 		// 4. Show gunshot hole
@@ -273,7 +273,7 @@ async function lostEffect(){
 	}
 	// Add sound effect
 	var whistleSound = new Audio();
-	whistleSound.src = "https://cdn.jsdelivr.net/gh/harvey7613/rrdao@main/westernwhistlethick.m4a";
+	whistleSound.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/westernwhistlethick.m4a";
 	// Setting volume level
 	whistleSound.volume = 0.4; 
 	whistleSound.play().then(() => {
@@ -289,7 +289,7 @@ async function lostEffect(){
 async function confettiSeason(){
 	//YeeHaw
 	var whistleSound = new Audio();
-	whistleSound.src = "audio/medievalvictory.m4a";
+	whistleSound.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/medievalvictory.m4a";
 	whistleSound.volume = 0.4; 
 	whistleSound.play();
 
@@ -355,7 +355,7 @@ async function tumbleweedSeason(){
 	}, 4000);
 	//make sounds
 	MyLibrary.missSound = new Audio();
-	MyLibrary.missSound.src = "audio/winchesterempty.m4a";
+	MyLibrary.missSound.src = "https://cdn.jsdelivr.net/gh/braavos/braavos-wd@main/audio/winchesterempty.m4a";
 	MyLibrary.missSound.play();
 	MyLibrary.missSound.volume = 0.5;
 }
