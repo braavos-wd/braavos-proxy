@@ -186,7 +186,7 @@ div.goalcont ul{
   padding:25vh 7.5vw;
   box-sizing: border-box;
   font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
-  font-size: clamp(13px, 2vw, 16px);
+  font-size: clamp(15px, 2vw, 18px);
 
   background: url("../img/scrollwhite.png") no-repeat;
   background-position: center; 
