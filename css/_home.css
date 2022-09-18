@@ -60,7 +60,7 @@ div.goalcont ul{
   max-width:850px;
   height:50vw;
   max-height:400px;
-  background: url("../img/jeetfundwhite.png") no-repeat;
+  background: url("img/jeetfundwhite.png") no-repeat;
   background-position: center 1vh; 
   background-repeat:no-repeat;
   background-size:60%;
@@ -167,13 +167,13 @@ div.goalcont ul{
   cursor: pointer;
 }
 .codeGithub{
-  background: url("../img/GitHub-Mark-64px.png") no-repeat;
+  background: url("img/GitHub-Mark-64px.png") no-repeat;
   background-position: center; 
   background-repeat:no-repeat;
   background-size:cover;
 }
 .codeEtherscan{
-  background: url("../img/etherscan-logo-circle.png") no-repeat;
+  background: url("img/etherscan-logo-circle.png") no-repeat;
   background-position: center; 
   background-repeat:no-repeat;
   background-size:cover;
@@ -188,7 +188,7 @@ div.goalcont ul{
   font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
   font-size: clamp(13px, 2vw, 16px);
 
-  background: url("../img/scrollwhite.png") no-repeat;
+  background: url("img/scrollwhite.png") no-repeat;
   background-position: center; 
   background-repeat:no-repeat;
   background-size:100% 100%;
