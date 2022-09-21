@@ -53,6 +53,7 @@ div.goalcont ul{
   line-height: 100px;
   word-break:break-word;
   color:#ddd;
+  color:#c8831b;
 }
 #jeetfundlogo{
   width:100%;
@@ -83,7 +84,6 @@ div.goalcont ul{
   font-size:clamp(15px, 2vw, 20px);
   font-weight:100;
   color:#ddd;
-  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000 !important;
 }
 #taglines span{
   display:inline-block;
@@ -186,7 +186,7 @@ div.goalcont ul{
   padding:25vh 7.5vw;
   box-sizing: border-box;
   font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
-  font-size: clamp(13px, 2vw, 16px);
+  font-size: clamp(14px, 2vw, 16px);
 
   background: url("../img/scrollwhite.png") no-repeat;
   background-position: center; 
@@ -200,9 +200,11 @@ div.goalcont ul{
   }
 }
 .missionintro{
+  padding:30px 0;
+  box-sizing: border-box;
   font-weight: 600;
-  text-transform:uppercase;
   text-align:center;
+  color:#c8831b;
 }
 .moneyflow, .moneyflow_diag{
 	position:relative;
@@ -223,6 +225,12 @@ div.goalcont ul{
 	color:#FFF;
   font-weight:100;
 }
+.headline{
+  padding:10px 0;
+  box-sizing: border-box;
+  font-weight:600;
+  font-size:clamp(13px, 1vw, 16px);
+}
 .taxes{
   display:block;
   width:100%;
@@ -232,12 +240,94 @@ div.goalcont ul{
   font-size:clamp(13px, 1vw, 16px);
   text-align:center;
 }
-.jeetjeet{
+.slogan{
+  margin-top:20px;
   display:block;
   width:100%;
   text-align:center;
+  color:#c8831b;
+  font-size:clamp(13px, 1vw, 16px);
 }
-
+.utilityexplainer{
+  display:block;
+  padding:2px 4%;
+  box-sizing: border-box;
+  color:#c8831b;
+}
+.reflectionsCalc{
+  padding:2px 4%;
+  box-sizing: border-box;
+}
+.taxbracketsol{
+  margin-bottom:20px;
+}
+.taxbrackets{
+  text-decoration: underline;
+}
+.gallery{
+  position:relative;
+  width:100%;
+  padding:2%;
+  box-sizing: border-box;
+  text-align:center;
+  z-index:4;
+}
+.gallery a img{
+  width:100%;
+  max-width:950px;
+  height:auto;
+  cursor:pointer;
+  text-decoration: none;
+}
+.gallery, .gallery a, .gallery a img{
+  margin:0px auto;
+  display:block;
+}
+.howtogallery, .comingsoon{
+  position:relative;
+  width:100%;
+  padding:2%;
+  box-sizing: border-box;
+  text-align:center;
+  z-index:4;
+  background-color: #0f0f0f;
+  border:0.5px solid #c8831b;
+}
+.howtogallery a img{
+  width:100%;
+  max-width:300px;
+  height:auto;
+  cursor:pointer;
+  text-decoration: none;
+  border:0.5px solid #c8831b;
+}
+.howtogallery, .howtogallery a, .howtogallery a img{
+  margin:2% auto;
+  display:inline-block;
+}
+.howtogallery a{
+  margin:2%;
+  text-decoration: none;
+  color:#DDD;
+}
+.howtogallery a img{
+  display:block;
+}
+.howtogallery a li{
+  font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
+  font-size:clamp(13px, 1vw 15px);
+}
+.comingsoon{
+  border:none;
+}
+.comingsoon li{
+  margin:0px auto;
+  max-width:300px;
+  display:block;
+  padding:2px 1%;
+  text-align:left;
+  list-style: georgian;
+}
 /* ------------------------------------------- FAQ Page ------------------------------*/
 .faq_cont{
 	position:relative;
