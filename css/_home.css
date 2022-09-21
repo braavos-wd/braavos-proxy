@@ -60,7 +60,7 @@ div.goalcont ul{
   max-width:850px;
   height:50vw;
   max-height:400px;
-  background: url("img/jeetfundwhite.png") no-repeat;
+  background: url("../img/jeetfundwhite.png") no-repeat;
   background-position: center 1vh; 
   background-repeat:no-repeat;
   background-size:60%;
@@ -167,13 +167,13 @@ div.goalcont ul{
   cursor: pointer;
 }
 .codeGithub{
-  background: url("img/GitHub-Mark-64px.png") no-repeat;
+  background: url("../img/GitHub-Mark-64px.png") no-repeat;
   background-position: center; 
   background-repeat:no-repeat;
   background-size:cover;
 }
 .codeEtherscan{
-  background: url("img/etherscan-logo-circle.png") no-repeat;
+  background: url("../img/etherscan-logo-circle.png") no-repeat;
   background-position: center; 
   background-repeat:no-repeat;
   background-size:cover;
@@ -186,9 +186,9 @@ div.goalcont ul{
   padding:25vh 7.5vw;
   box-sizing: border-box;
   font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
-  font-size: clamp(13px, 2vw, 16px);
+  font-size: clamp(14px, 2vw, 16px);
 
-  background: url("img/scrollwhite.png") no-repeat;
+  background: url("../img/scrollwhite.png") no-repeat;
   background-position: center; 
   background-repeat:no-repeat;
   background-size:100% 100%;
@@ -263,6 +263,70 @@ div.goalcont ul{
 }
 .taxbrackets{
   text-decoration: underline;
+}
+.gallery{
+  position:relative;
+  width:100%;
+  padding:2%;
+  box-sizing: border-box;
+  text-align:center;
+  z-index:4;
+}
+.gallery a img{
+  width:100%;
+  max-width:950px;
+  height:auto;
+  cursor:pointer;
+  text-decoration: none;
+}
+.gallery, .gallery a, .gallery a img{
+  margin:0px auto;
+  display:block;
+}
+.howtogallery, .comingsoon{
+  position:relative;
+  width:100%;
+  padding:2%;
+  box-sizing: border-box;
+  text-align:center;
+  z-index:4;
+  background-color: #0f0f0f;
+  border:0.5px solid #c8831b;
+}
+.howtogallery a img{
+  width:100%;
+  max-width:300px;
+  height:auto;
+  cursor:pointer;
+  text-decoration: none;
+  border:0.5px solid #c8831b;
+}
+.howtogallery, .howtogallery a, .howtogallery a img{
+  margin:2% auto;
+  display:inline-block;
+}
+.howtogallery a{
+  margin:2%;
+  text-decoration: none;
+  color:#DDD;
+}
+.howtogallery a img{
+  display:block;
+}
+.howtogallery a li{
+  font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
+  font-size:clamp(13px, 1vw 15px);
+}
+.comingsoon{
+  border:none;
+}
+.comingsoon li{
+  margin:0px auto;
+  max-width:300px;
+  display:block;
+  padding:2px 1%;
+  text-align:center;
+  list-style: georgian;
 }
 /* ------------------------------------------- FAQ Page ------------------------------*/
 .faq_cont{
