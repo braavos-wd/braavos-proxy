@@ -1,0 +1,455 @@
+@import "_fireflies.css";
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+body{
+  background: radial-gradient(#1f1f1fdd, #000) !important;
+}
+#mycanvas{
+  position:absolute;
+  top:20%;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  z-index:0;
+}
+#holf{
+  position:relative;
+  height:auto;
+  width:100%;
+  margin:0 !important;
+  padding:0;
+  padding-bottom:30px;
+  box-sizing: border-box;
+  color:#FFF;
+  font-family: "Montserrat", Armitage, Proxima Nova, "Liberation Sans", FreeSans, sans-serif !important;
+  overflow:hidden !important;
+}
+div.goalcont{
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	clear:both;
+  min-height:100px;
+  max-width:850px;
+  color:#bac4c1;
+}
+div.goalcont ul{
+  position:relative;
+  margin:0px auto;
+  z-index:5;
+}
+.jeetfundTitle{
+  position: relative;
+  margin: 0px auto;
+  height:auto;
+  z-index: 5;
+  padding:2%;
+  box-sizing:border-box;
+
+  text-align:center;
+  font-family: 'Rye', 'cursive', "Helvetica Neue", Helvetica, Arial !important;
+  font-size: clamp(27px, 4vw, 55px) !important;
+  line-height: 100px;
+  word-break:break-word;
+  color:#ddd;
+  color:#c8831b;
+}
+#jeetfundlogo{
+  width:100%;
+  max-width:850px;
+  height:50vw;
+  max-height:400px;
+  background: url("../img/jeetfundwhite.png") no-repeat;
+  background-position: center 1vh; 
+  background-repeat:no-repeat;
+  background-size:60%;
+}
+.main_points{
+	margin:0px auto;
+	font-weight:100;
+	letter-spacing:1px;
+	border-top:0.5px solid #a6a6a6;
+	border-bottom:0.5px solid #a6a6a6;
+}
+#taglines{
+  position:relative;
+  padding:0.5em;
+  max-width:1200px;
+  margin:0px auto;
+  text-align:center;
+  word-break:break-word;
+  box-sizing:border-box;
+  font-family: 'rye', 'monospace' !important;
+  font-size:clamp(15px, 2vw, 20px);
+  font-weight:100;
+  color:#ddd;
+}
+#taglines span{
+  display:inline-block;
+  padding:10px;
+  box-sizing:border-box;
+  color:#DDD;
+  letter-spacing:0.1vw;
+}
+@media (max-width: 600px){
+  #taglines span{
+    display: block;
+    height: auto;
+    width: 100%;
+    font-size:13px;
+    letter-spacing:normal;
+  }
+  #jeetfundlogo{
+    height:200px;
+  }
+  .jeetfundTitle h4{
+    line-height:25px;
+  }
+}
+.p1_links_cont{
+	position:relative;
+	width:100%;
+	height:auto;
+	text-align:center;
+  margin-bottom:20px;
+  padding-top:2vh;
+  box-sizing: border-box;
+}
+.p1_links{
+	position:relative;
+	display:inline-block;
+	width:100px;
+	height:45px;
+	background-color:#000;
+	vertical-align: middle;
+	margin:1%;
+	border-radius:5px;
+	border: 0.5px solid #d9d9d9;
+	cursor:pointer;
+	color:#d9d9d9 !important;
+	font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
+  font-size:clamp(13px 1vw 16px);
+  font-size: clamp(13px, 2vw, 16px);
+  line-height:1;
+	font-weight:400;
+  text-decoration:none !important;
+  padding:15px 0;
+  box-sizing: border-box;
+}
+.p1_download_links{
+	color:#d9d9d9 !important;
+	margin:0 2%;
+	font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
+  font-size: clamp(13px, 2vw, 16px);
+  line-height:1.5;
+	font-style:normal;
+}
+#code{
+  position:relative;
+  bottom:2vw;
+  width:100%;
+  height:auto;
+  padding:1.5vw;
+  box-sizing:border-box;
+  text-align:center;
+  z-index:10;
+}
+.codeGithub, .codeEtherscan{
+  margin:1vw;
+  display: inline-block;
+  width:40px;
+  height:40px;
+  text-align:center;
+  color:#FFF;
+  background-color:#683c2c;
+  text-decoration: none;  
+  cursor: pointer;
+}
+.codeGithub{
+  background: url("../img/GitHub-Mark-64px.png") no-repeat;
+  background-position: center; 
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.codeEtherscan{
+  background: url("../img/etherscan-logo-circle.png") no-repeat;
+  background-position: center; 
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#mission{
+  position:relative;
+  width:90%;
+  max-width:950px;
+  margin:0px auto;
+  padding:25vh 7.5vw;
+  box-sizing: border-box;
+  font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
+  font-size: clamp(14px, 2vw, 16px);
+
+  background: url("../img/scrollwhite.png") no-repeat;
+  background-position: center; 
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+}
+@media screen and (max-width: 500px) {
+  #mission{
+    padding:27vh 8vw !important;
+    box-sizing: border-box;
+  }
+}
+.missionintro{
+  padding:10px 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  text-align:center;
+  color:#c8831b;
+}
+.moneyflow, .moneyflow_diag{
+	position:relative;
+	margin:0px auto;
+	width:100%;
+	max-width:850px;
+	height:auto;
+  padding:2vh;
+  box-sizing: border-box;
+  text-align:center;
+}
+.moneyflow h2{
+	margin: 0;
+	padding: 10px 0;
+	font-family: 'Rye', cursive !important;
+  font-size: clamp(20px, 2vw, 25px);
+  line-height:1.7;
+	color:#FFF;
+  font-weight:100;
+}
+.headline{
+  padding:10px 0;
+  box-sizing: border-box;
+  font-weight:600;
+  font-size:clamp(13px, 1vw, 16px);
+}
+.taxes{
+  display:block;
+  width:100%;
+  padding:2%;
+  box-sizing: border-box;
+  font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
+  font-size:clamp(13px, 1vw, 16px);
+  text-align:center;
+}
+.slogan{
+  margin-top:20px;
+  display:block;
+  width:100%;
+  text-align:center;
+  color:#c8831b;
+  font-size:clamp(13px, 1vw, 16px);
+}
+.utilityexplainer{
+  display:block;
+  padding:2px 4%;
+  box-sizing: border-box;
+  color:#c8831b;
+}
+.reflectionsCalc{
+  padding:2px 4%;
+  box-sizing: border-box;
+}
+.taxbracketsol{
+  margin-bottom:20px;
+}
+.taxbrackets{
+  text-decoration: underline;
+}
+.gallery{
+  position:relative;
+  width:100%;
+  padding:2%;
+  box-sizing: border-box;
+  text-align:center;
+  z-index:4;
+}
+.gallery a img{
+  width:100%;
+  max-width:950px;
+  height:auto;
+  cursor:pointer;
+  text-decoration: none;
+}
+.gallery, .gallery a, .gallery a img{
+  margin:0px auto;
+  display:block;
+}
+.howtogallery, .comingsoon{
+  position:relative;
+  width:100%;
+  padding:2%;
+  box-sizing: border-box;
+  text-align:center;
+  z-index:4;
+  background-color: #0f0f0f;
+  border:0.5px solid #c8831b;
+}
+.howtogallery a img{
+  width:100%;
+  max-width:300px;
+  height:auto;
+  cursor:pointer;
+  text-decoration: none;
+  border:0.5px solid #c8831b;
+}
+.howtogallery, .howtogallery a, .howtogallery a img{
+  margin:2% auto;
+  display:inline-block;
+}
+.howtogallery a{
+  margin:2%;
+  text-decoration: none;
+  color:#DDD;
+}
+.howtogallery a img{
+  display:block;
+}
+.howtogallery a li{
+  font-family:monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
+  font-size:clamp(13px, 1vw 15px);
+}
+.comingsoon{
+  border:none;
+}
+.comingsoon li{
+  margin:0px auto;
+  max-width:300px;
+  display:block;
+  padding:2px 1%;
+  text-align:center;
+  list-style: georgian;
+}
+/* ------------------------------------------- FAQ Page ------------------------------*/
+.faq_cont{
+	position:relative;
+	font-family: monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
+  line-height:1.5;
+  font-size: clamp(14px, 2vw, 16px);
+	font-weight: 400;
+	background: #000;
+	color: #ddd;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	text-align: left;
+	height: auto;
+	padding:20px 10px 50px;
+  box-sizing: border-box;
+}
+.faq h2{
+	margin:0;
+	font-family:'Rye', cursive !important;
+	text-align:center;
+	font-size: clamp(20px, 2vw, 27px);
+	line-height: 27px;
+	color:#FFF;
+  padding:15px 0;
+  box-sizing: border-box;
+}
+main {
+	position:relative;
+  max-width: 820px;
+  margin: 0 auto;
+}
+summary {
+	position:relative;
+  font-size: clamp(14px 1vw 17px);
+  font-weight: 600;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 1vw;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* ----------------------------------------------- 	PAGE 6 -------------------------------------------------*/
+#holf_p6{
+  position: relative;
+  margin:0;
+  padding:20px 10px;
+  box-sizing:border-box;
+  width:100% !important;
+  min-width:100%;
+  height:auto;
+  min-height:150px;
+  overflow:hidden;
+  background-color:#000;
+}
+#holf_p7{
+  padding:0;
+  box-sizing:border-box;
+}
+.contacts_cont{
+	position:relative;
+	margin:0px auto;
+	width:100%;
+	max-width:800px;
+	min-height:100px;
+	text-align:center;
+  z-index:2;
+}
+.contacts_cont span{
+	font-family: monospace, sans-serif, "Helvetica Neue", Helvetica, Arial !important;
+  font-size: clamp(14px, 2vw, 16px);
+  line-height:1.5;
+	color:#FFF;
+}
+.social_links{
+  display: inline-block;
+	margin:0 auto;
+  padding:2%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.social_links img{
+	color:#683c2c !important;
+}
+/*===============================
+      BOTTOM OF EVERY CSS FILE
+=================================
+*/
+#loadOverlay{display: none;}
+.loading_badge_place {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height:15vw;
+  width:15vw;
+  text-align:center;
+  z-index:150;
+}
